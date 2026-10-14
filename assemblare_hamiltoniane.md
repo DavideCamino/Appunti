@@ -23,25 +23,32 @@ Nei cerchi ci sono i gates, Le etichette sui fili rappresentano le variabili log
 Prendiamo la definizione dei gates da `stdcell.qmasm`, per lavorare più comodi scaliamo tutto $\times 2$ in modo da lavorare con valori interi.
 
 $$
-AND = -a -b +2c +ab -2ac-2bc\\
-OR = +a +b -2c +ab -2ac-2bc\\
-NOT = ab
+\begin{align*}
+AND &: -a -b +2c +ab -2ac-2bc\\
+OR &: +a +b -2c +ab -2ac-2bc\\
+NOT &: ab
+\end{align*}
+
 $$
 
 Guardando al circuito di prima possiamo scrivere il risultato di ogni singolo gate:
 
 $$
-x = B \lor C\\
-y = \neg x\\
-z = A \land y
+\begin{align*}
+x &= B \lor C\\
+y &= \neg x\\
+z &= A \land y
+\end{align*}
 $$
 
 Che, rispettivamente, generano i polinomi:
 
 $$
-H_{or}=+B+C-2x+BC-2Bx-2Cx\\
-H_{not}=+xy\\
-H_{and}=-A-y+2z+Ay-2Az-2yz
+\begin{align*}
+H_{or}&=+B+C-2x+BC-2Bx-2Cx\\
+H_{not}&=+xy\\
+H_{and}&=-A-y+2z+Ay-2Az-2yz
+\end{align*}
 $$
 
 ## Assemblare
