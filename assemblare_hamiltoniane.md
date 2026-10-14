@@ -28,7 +28,6 @@ AND &: -a -b +2c +ab -2ac-2bc\\
 OR &: +a +b -2c +ab -2ac-2bc\\
 NOT &: ab
 \end{align*}
-
 $$
 
 Guardando al circuito di prima possiamo scrivere il risultato di ogni singolo gate:
