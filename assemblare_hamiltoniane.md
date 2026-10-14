@@ -15,7 +15,7 @@ $$
 ### Circuito Digitale
 Riscriviamo la formula come circuito digitale:
 
-![Markdown Logo](circuito.svg)
+![circuito](circuito.svg)
 
 Nei cerchi ci sono i gates, Le etichette sui fili rappresentano le variabili logiche che possono essere definite nella formula o ancille.
 
